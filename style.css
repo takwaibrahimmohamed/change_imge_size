@@ -1,0 +1,29 @@
+.container{
+    background-color: #eee;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+}
+.img {
+   cursor: pointer;
+   margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* width: 300px; */
+    height: 500px;
+    
+}
+.active{
+    width: 150%;
+    transition: .5s ease;
+}
+img{
+    width: 50%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit:cover;
+}
